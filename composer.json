@@ -1,0 +1,28 @@
+{
+    "name": "krymen/guzzle-playground",
+    "require": {
+        "guzzlehttp/guzzle": "4.*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "4.*"
+    },
+    "authors": [
+        {
+            "name": "Krzysztof Menżyk",
+            "email": "krzysztof@menzyk.net"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Krymen\\Guzzle\\" : "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Krymen\\Guzzle\\Test\\" : "tests"
+        }
+    },
+    "config": {
+        "bin-dir": "bin"
+    }
+}
